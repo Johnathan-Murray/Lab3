@@ -1,0 +1,35 @@
+
+// function code results
+
+
+ clang-7 -pthread -lm -o main lab3.c main.c
+ ./main
+Please enter the winning time of the race: 15.00
+
+The person was traveling at a rate of:
+6.67  meters per second.
+21.87 feet per second.
+14.91 miles per hour.
+24.00 kilometers per hour.
+ 
+It would take the runner 4 minutes and 1.40 seconds to run a mile. 
+It would take the runner 13.72 seconds to run 100 yards. 
+
+
+// original nonfunction code to this problem
+
+
+ clang-7 -pthread -lm -o main main.c
+ ./main
+Please enter the winning time of the race: 15.00
+
+The person was traveling at a rate of:
+6.67  meters per second.
+21.87 feet per second.
+14.91 miles per hour.
+24.00 kilometers per hour.
+ 
+It would take the runner 4 minutes and 1.40 seconds to run a mile. 
+It would take the runner 13.72 seconds to run 100 yards. 
+
+

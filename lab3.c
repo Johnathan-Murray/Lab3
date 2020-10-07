@@ -46,11 +46,12 @@ void displayTimeToRunMile(double mph)
 {
 double mileTimeD = (1.0/mph)*60.0;
       int mileTimeI    = (1.0/mph)*60.0;
+      double mileTimeS = (mileTimeD-mileTimeI)*60.0;
 
       printf("It would take the runner ");
       printf("%d minutes ", mileTimeI);
       printf("and ");
-      printf("%.2lf seconds ", mileTimeD);
+      printf("%.2lf seconds ", mileTimeS);
       printf("to run a mile. \n");
 }
 
