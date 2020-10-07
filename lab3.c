@@ -13,7 +13,42 @@ double readWinningTime()
 
 }// end readWinningTime
 
+double calcMetersPerSecond(const double DISTANCE, double winningTime)
+{
+  return 0.00;
+}
+
+double calcFeetPerSecond(double winningTime)
+{
+  return 0.00;
+}
+
 double calculateKillmeterPerHour(const double DISTANCE, double winningTime, double seconds)
 {
   return 0.00;
+}
+
+double calcMilesPerHour(double winningTime, double mtomi)
+{
+  return 0.00;
+}
+
+void displayResults(double fps, double kph, double mph, double mps)
+{
+
+}
+
+void displayTimeToRunMile(double mph)
+{
+
+}
+
+double calcTime100Yards(double fps)
+{
+  return 0.00;
+}
+
+void displayHundredYardsTime(double hundredYards)
+{
+  
 }

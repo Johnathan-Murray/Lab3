@@ -10,7 +10,7 @@ int main()
 
   winningTime = readWinningTime();
   
-  /*double mps = calcMetersPerSecond(DISTANCE, winningTime);
+  double mps = calcMetersPerSecond(DISTANCE, winningTime);
   double fps = calcFeetPerSecond(winningTime);
   double kph = calculateKillmeterPerHour(DISTANCE, winningTime, 60);
   double mph = calcMilesPerHour(winningTime, 0.00062137121212121);
@@ -21,7 +21,7 @@ int main()
   double hundredYards = calcTime100Yards(fps);
   displayHundredYardsTime(hundredYards);
   
-*/
+
 
 
 }// end main
